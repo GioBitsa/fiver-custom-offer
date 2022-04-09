@@ -1,0 +1,21 @@
+.content-right {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rightDoctor {
+    width: 13rem;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+}
+
+.content_right_d1 {
+    background: url('/public/lmmigrantOfficer.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 10rem;
+    background-color: darkgray;
+}

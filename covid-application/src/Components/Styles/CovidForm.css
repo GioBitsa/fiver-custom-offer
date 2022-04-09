@@ -1,0 +1,135 @@
+.formContainer  input[type=text]{
+    width: 30%;
+    display: inline-block;
+    border: 1px #097747;
+    border-bottom: 1px solid #097747;
+    box-sizing: border-box;
+}
+
+.formContainer input[type=checkbox]{
+
+    filter:hue-rotate(240deg); /* 40deg for purple */
+}
+
+#dailyTemperature{
+
+    width: 6%;
+}
+
+.formContainer h1{
+    color: #097747;
+ /*   text-align: center;*/
+}
+    /* Center Login label*/
+.formContainer {
+    margin: 50px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 100%;
+    padding: 30px;
+
+}
+
+/*
+ set a style for login button*/
+.covidFormbtn{
+/*    margin-left: 40%;*/
+    width: 30%;
+    text-align: center;
+     position: center;
+
+}
+
+
+.formContainer .symptoms{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    font-size: 80%;
+    padding: 20px;
+    margin: 50px;
+}
+
+.formContainer   label{
+    color: #097747;
+}
+
+/* Add padding to containers */
+.formContainer   .container {
+    border-radius: 30px;
+    border:solid rgb(88, 170, 88) 3px;
+    margin-top: 50px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    width: 80%;
+    padding: 60px;
+    padding-bottom: 100px;
+
+}
+
+input[type='radio'] {
+margin: 0 4px;
+}
+
+.formContainer   .contLink{
+    font-size: small;
+}
+.formContainer form .likert {
+    list-style:none;
+    width:80%;
+    margin-left:130px;
+    padding:0 0 35px;
+    display:block;
+    border-bottom:2px solid #efefef;
+    font-size: 100%;
+}
+.formContainer form .likert:last-of-type {border-bottom:0;}
+.formContainer form .likert:before {
+    content: '';
+    position:relative;
+    top:11px;
+    left:9.5%;
+    display:block;
+    background-color:#efefef;
+    height:4px;
+    width:78%;
+}
+.formContainer form .likert li {
+    display:inline-block;
+    width:19%;
+    text-align:center;
+    vertical-align: top;
+}
+.formContainer form .likert li input[type=radio] {
+    display:block;
+    position:relative;
+    top:0;
+    left:50%;
+    margin-left:-6px;
+
+}
+form .likert li label {width:100%;}
+
+
+#symptomBox{
+    margin: auto;
+    width: 100%;
+}
+
+#ageRangeBox{
+    width: 50%;
+}
+
+#box span{
+    width: 60%;
+}
+
+.selectWidth{
+    width: 400px;
+}
+
+.ctFormContainer  input[type=radio] {
+ margin-left: 300px;
+    margin-right: 20px;
+}
+.ctFormContainer  input[type=checkbox] {
+    margin-right: 20px;
+
+}

@@ -1,0 +1,43 @@
+.GenerateButton {
+    background-color: #097747;
+    min-width: 200px;
+    max-height: 80px;
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+}
+
+.GenerateButton:hover {
+    background-color: #0c8f56;
+}
+
+.GenerateButton2:hover {
+    background-color: #814397;
+}
+
+.GenerateButton2 {
+    background-color: #633674;
+    min-width: 200px;
+    height: 50px;
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+}
+
+.GenerateForm {
+    display: flex;
+    justify-content: center;
+}
+
+.generatePatientForm {
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centerButtons {
+    display: flex;
+    justify-content: center;
+}

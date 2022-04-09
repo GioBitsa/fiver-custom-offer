@@ -1,0 +1,38 @@
+import React, {Component} from "react";
+import './Styles/DoctorDashboard.css';
+import PatientList from "./PatientList";
+import NewPatientList from "./NewPatientList";
+import DoctorDashProfile from "./DoctorDashProfile";
+import DoctorDashData from "./DoctorDashData";
+import DoctorDashReport from "./DoctorDashReport";
+
+function DoctorDashboard(){
+    const data = [];
+	for (let num = 30; num>=0; num--){
+		data.push({
+			date: subDays(new Date().).,
+			value: 1+Math.random()
+		})
+	}
+	
+	return(
+        <div className={"container1"}>
+            <div>
+                <br/><DoctorDashProfile/>
+                <div><DoctorDashData/></div><br/>
+            </div>
+			
+			<div>
+                <br/><DoctorDashReport/>
+            </div>
+           
+            <div>
+                <PatientList/>
+                <NewPatientList/>
+            </div>
+
+
+        </div>
+    )
+}
+export default DoctorDashboard

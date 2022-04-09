@@ -1,0 +1,86 @@
+/* Bordered form */
+form {
+    border: 3px solid #ffffff;
+    height: 100vh;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(20, 20, 20);
+    box-sizing: border-box;
+}
+
+
+/* Center Login label*/
+.logcontainer {
+  margin-top: 80px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif!important;
+  text-align: center;
+  font-size: 300%;
+  color: #000000;
+  opacity: 0.8;
+}
+
+/* Center signup label*/
+.signup_container {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    font-size: 140%;
+    margin-bottom: 40px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #0fc280;
+  color: rgb(22, 21, 21);
+  padding: 18px 10px;
+  border: none;
+  border-radius: 25px!important;
+  cursor: pointer;
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* set a style for login button*/
+.logbtn{
+  padding: 20px 0;
+   text-align: center; 
+   font-size: larger;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: rgb(102, 219, 180);
+}
+
+/* Add padding to containers */
+.containerr {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  padding: 16px;
+  width: 40%!important;
+  margin: 0 auto;
+  color: #000000;
+  opacity: 80%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    padding-top: 16px;
+}
+
+.LogIN {
+    background-color: #fffefe;
+    color: rgb(219, 24, 24);
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.contLink {
+    font-size: small;
+}

@@ -1,0 +1,14 @@
+import React from "react";
+import './Styles/DoctorDashboard.css';
+
+function DoctorDashReport(){
+    return(
+        <div className={"profile-container"}>
+            <img src={"https://pyxis.nymag.com/v1/imgs/576/191/a6fade5a35bff53d16c14a2af53f3c6852-31-dr-mike.rsquare.w700.jpg"} alt={"profile"} className={"profilepic"}/>
+            <br></br>
+            <div><p align={"center"}>Handsome Doctor</p></div>
+
+        </div>
+    )
+}
+export default DoctorDashProfile

@@ -1,0 +1,136 @@
+/* Bordered form */
+ form {
+    border: 3px solid #ffffff;
+    height: 100%;
+  }
+  
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    display: inline-block;
+    border: 1px #097747;
+    border-bottom: 1px solid #097747;
+    box-sizing: border-box;
+  }
+
+input:focus {
+    background-color: #ffffff;
+    outline: none !important;
+    border-radius: 10px;
+  }
+
+input[type=checkbox]{
+    
+    filter:hue-rotate(240deg); /* 40deg for purple */
+  }
+
+ select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #097747;
+    border-bottom: 1px solid #097747;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+ select:focus {
+    background-color: rgb(231, 231, 231);
+    outline: none !important;
+    border-radius: 10px;
+  }
+  
+  /* Center Login label*/
+.signcontainer {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 40px;
+  }
+  
+  /* Set a style for all buttons */
+button {
+    background-color: #097747;
+    color: white;
+    padding: 18px 10px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  /* set a style for login button*/
+.signbtn{
+     text-align: center; 
+  }
+
+ button{
+    margin: 20px;
+    background-color: #097747;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: large;
+    transition: 0.1s;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    background-color: #085835;
+  }
+
+  .signcontainer{
+  }
+
+  label{
+    color: #097747;
+  }
+  
+  /* Add padding to containers */
+  .containerr {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    padding: 16px;
+    width: 30%;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-radius: 25px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    padding-top: 16px;
+  }
+
+  .contLink{
+    font-size: small;
+  }
+
+  .SignUpStyle{
+    max-height: 80vh;
+    overflow: hidden;
+  }
+
+  .eulaClickable:hover{
+    color: #085835;
+    text-decoration-style:double;
+  }
+
+  .eulaTitle{
+    color: #085835;
+    font-style: italic;
+  }
+
+.alignEulaButton{
+  display: flex;
+  justify-content: center;
+}
+
+.eulaButton{
+  min-width: 150px;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}

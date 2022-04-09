@@ -1,0 +1,11 @@
+{
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+    "forwardingGateway": {
+        "allowedForwardedHosts": [
+          "white-pond-02529e00f.1.azurestaticapps.net",
+          "www.white-pond-02529e00f.1.azurestaticapps.net"
+        ]
+      }
+}

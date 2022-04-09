@@ -1,0 +1,42 @@
+.d100 {
+    width: 100%;
+}
+
+.contentList {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px black solid;
+    color: rgb(128, 128, 128);
+    box-sizing: unset;
+}
+
+.contentList_sp1 {
+    padding-left: 1rem;
+    float: left;
+    line-height: 42px;
+}
+
+.contentList_sp2 {
+    float: left;
+    line-height: 42px;
+}
+
+.contentListBtn {
+    color: white;
+    line-height: 30px;
+    margin-top: 6px;
+    height: 70%;
+    float: right;
+    border-radius: 30px;
+    width: 9rem;
+    background-color: rgb(7, 139, 7);
+}
+
+.ilblock {
+    display: inline-block;
+}
+
+.ilblock span {
+    cursor: pointer;
+    width: 7rem;
+}

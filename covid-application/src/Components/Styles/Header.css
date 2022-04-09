@@ -1,0 +1,36 @@
+.header{
+    min-height: 8vh;
+    display: flex;
+
+}
+
+.header .navibar {
+    flex-grow: 8;
+    background-color: #633674!important;
+    height: 100px;
+    float: right;
+    border-bottom-left-radius: 40px;
+   
+}
+
+h1{
+padding: 20px;
+margin: 0%;
+}
+
+.centerHead{
+    display: inline-block;
+    align-content: center;
+    color: #633674;
+    flex-grow: 2;
+}
+.logo {
+    font-size: 52px;
+}
+
+.nav {
+    overflow: hidden;
+    display: inline;
+    float: right;
+    border-bottom-left-radius: 0px;
+}

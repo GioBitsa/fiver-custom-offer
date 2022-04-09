@@ -1,0 +1,70 @@
+.footer{
+    min-height: 20vh;
+    background-color: #6dcca3;
+    color: white;
+    align-content: bottom;
+    align-items: bottom;
+    align-self: bottom;
+    
+
+}
+
+.footerCont{
+    padding-top: 16px;
+    width: 60%;
+    margin: auto;  
+    
+}
+
+/* .footerCont .copyright { */
+    /* display: block; */
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    
+/* } */
+
+/* .footerCont .address {
+    display: inline;
+    float: left;
+}
+
+.footerCont .phone {
+    display: inline;
+    float: left;
+}
+
+.footerCont .fb {
+    display: inline;
+    float: right;
+}
+
+.footerCont .Twitter {
+    display: inline; 
+    float: right;
+} */
+
+.footerCont .info {
+    display: inline;
+    float: left;
+}
+
+.footerCont .social {
+    display: inline;
+    float: right;
+}
+
+.footerCont .phone a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerCont .phone a:hover {
+    color: black;
+}
+
+.footerCont .info {
+   display: block;
+}
+
+
+

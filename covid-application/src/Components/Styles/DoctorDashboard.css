@@ -1,0 +1,561 @@
+.float-container {
+    padding: 0px;
+    margin: 0%;
+    justify-content: left;
+}
+
+.float-child {
+    width: 49%;
+    float: right;
+    padding: 0px;
+    margin: 0%;
+    justify-content: center;
+}
+
+.profilepic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.profilepic2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.picture-patientpage {
+    width: 400px;
+    height: 300px;
+}
+
+.patient-container {
+    background-color: rgb(250, 245, 255);
+    height: auto;
+    width: auto;
+    display: flex;
+    padding: 2%;
+    margin: 0%;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Helvetica Neue";
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.appointment-container {
+    background-color: rgb(250, 245, 255);
+    height: auto;
+    width: auto;
+    display: flex;
+    padding: 2%;
+    margin: 0%;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Helvetica Neue";
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+/*patient-container.th,patient-container.td,patient-container.tr{*/
+/*    border: 1px black;*/
+/*    border-radius: 3px;*/
+/*    border-collapse: collapse;*/
+/*    justify-content: space-around;*/
+/*    padding: 10px;*/
+
+/*}*/
+/*patient-container.table{*/
+/*    margin-top: 150px;*/
+/*    padding: 100px;*/
+/*    color: white;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.profile-container {
+    background-color: rgb(250, 245, 255);
+    height: auto;
+    padding: 15px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.profile-container-patientpage {
+    background-color: rgb(250, 245, 255);
+    height: auto;
+    padding: 15px;
+    width: auto;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.data-block {
+    background-color: rgb(250, 245, 255);
+    width: 150px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.titlebar {
+    background-color: rgb(250, 245, 255);
+    width: 920px;
+    ;
+    height: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebardoctor {
+    background-color: rgb(250, 245, 255);
+    width: 920px;
+    ;
+    height: 80px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebarcontactdoctor {
+    background-color: rgb(250, 245, 255);
+    width: 550px;
+    ;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactDoctorField {
+    background-color: rgb(250, 245, 255);
+    width: 550px;
+    ;
+    height: 750px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjecttextbox {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    ;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    ;
+    height: 450px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.urgent-button {
+    width: 50px;
+    ;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+
+/***********************************************/
+/*  Code from https://www.w3schools.com/howto/howto_css_switch.asp  */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/***********************************************/
+
+
+
+.contactDoctorCenter {
+    margin-left: 1050px;
+}
+
+
+
+
+
+.sendButton {
+    width: 100px;
+    ;
+    height: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+
+.square-graphs-1 {
+    background-color: rgb(250, 245, 255);
+    width: 445px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.square-graphs-2 {
+    background-color: rgb(250, 245, 255);
+    width: 445px;
+    height: 350px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.square-patient-1 {
+    background-color: rgb(250, 245, 255);
+    width: 445px;
+    height: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.square-patient-2 {
+    background-color: rgb(250, 245, 255);
+    width: 445px;
+    height: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 15px;
+}
+
+.long-graphs {
+    background-color: rgb(250, 245, 255);
+    width: 920px;
+    height: 350px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.square-graphs-right {
+    background-color: rgb(250, 245, 255);
+    width: 445px;
+    height: 350px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.patient-menu-right {
+    background-color: rgb(250, 245, 255);
+    width: 445px;
+    height: 75px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.patient-menu-right-2 {
+    background-color: rgb(250, 245, 255);
+    width: 385px;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.patient-menu-right-1 {
+    background-color: rgb(250, 245, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.patientbutton {
+    background-color: #097747;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    min-width: 175px;
+}
+
+.historybutton {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+.historybuttondash {
+    background-color: #097747;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    min-width: 100px;
+    align-self: center;
+}
+
+.patientbuttondash {
+    background-color: #097747;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    min-width: 100px;
+    align-self: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerBoardLeft {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+.containerBoardLeftProfile {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    width: 33%;
+    padding-left: 100px;
+}
+
+.containerBoardLeftList {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-width: 33%;
+}
+
+.GenerateButton {
+    background-color: #097747;
+    max-width: 150px;
+    min-height: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.GenerateButtonSelect {
+    display: flex;
+    justify-content: center;
+}
+
+.GenerateForm {
+    display: flex;
+    justify-content: center;
+}
+
+.SelectForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.generatePatientForm {
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.generatePatientHistory {
+
+    width: 20vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.generatePatientHistory ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.generatePatientHistory ul li {
+    margin-top: 15px;
+}
+
+.flagbtn {
+    background-color: #faf5ff;
+    color: #ff0000;
+    border: none;
+    border-radius: 25px !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+.flagbtn:hover {
+    background-color: #ffffff;
+}
+
+.HealthList {
+    min-width: 60vh;
+    font-size: large;
+}
+
+.endOfList {
+    display: flex;
+    border-radius: 10px;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.patientUpdateForm {
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.listStyle {
+    list-style-type: none;
+    padding: 0;
+}
+
+.scrollComp {
+    max-height: 20vh;
+    overflow-y: scroll;
+    justify-content: start;
+}
