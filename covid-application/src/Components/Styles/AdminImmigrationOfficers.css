@@ -19,3 +19,24 @@
     border-radius: 10rem;
     background-color: darkgray;
 }
+
+@media screen and (max-width: 991px) {
+    .content-right {
+        width: 100%;
+        grid-column: 1/3;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content-right {
+        grid-column: 1/1;
+    }
+
+    .rightDoctor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
